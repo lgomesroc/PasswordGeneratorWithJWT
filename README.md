@@ -8,6 +8,7 @@ Este projeto é uma API simples para gerenciar senhas, desenvolvida com **Flight
 - **Deletar senha:** Remove uma senha do banco de dados com base no ID.
 - **Autenticação JWT:** Protege a API para que apenas usuários autorizados possam acessar e gerenciar as senhas.
 - **Registro de usuários:** Criação de contas com validação de dados.
+- **Tratamento de erros:** Para validar os dados.
 
 ## Tecnologias utilizadas
 - **Backend:** `Flight PHP`
@@ -15,6 +16,7 @@ Este projeto é uma API simples para gerenciar senhas, desenvolvida com **Flight
 - **Containerização:** `Docker`
 - **Gerenciamento de Dependências:** `Composer`
 - **Autenticação:** `JWT` (JSON Web Tokens)
+- **Validação dos dados:** `Respect\Validation`
 
 ## Endpoints
 ```
